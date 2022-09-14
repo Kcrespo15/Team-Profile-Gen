@@ -1,4 +1,25 @@
 {
+  "name": "team-profile-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kcrespo15/Team-Profile-Gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kcrespo15/Team-Profile-Gen/issues"
+  },
+  "homepage": "https://github.com/Kcrespo15/Team-Profile-Gen#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.0.3"

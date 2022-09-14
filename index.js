@@ -127,5 +127,5 @@ const questions = async () => {
       // function to create finalized team 
       function createTeam () {
         console.log("new member", teamMembersData)
-        fs.writeFileSync("./styling/index.html", generateTeam(teamMembersData),"utf-8");
+        fs.writeFileSync("dist/index.html", generateTeam(teamMembersData),"utf-8");
       }
