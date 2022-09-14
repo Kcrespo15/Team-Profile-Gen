@@ -1,11 +1,11 @@
 // required modules 
 const inquirer =require('inquirer');
 const fs = require('fs');
-const generateTeam = require('./styling/page-template');
+const generateTeam = require('./src/page-template');
 
-const Manager = require('./Team/Manager');
-const Engineer = require('./Team/Engineer');
-const Intern = require('./Team/Intern');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 // const { async } = require('rxjs');
 
 const teamMembersData = [];
