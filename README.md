@@ -30,7 +30,7 @@
   node index
   ~~~
   The user will be prompted to answer a series of questions. The user will type their input to answer most of the questions. To select a team member to add, use the arrow keys to scroll up and down through the list. Once the user selects "Done building team", an index.html file will be generated with all of the information inputted by the user.
-  
+  https://drive.google.com/file/d/1S4twi4y1ZEg57A_H-1wFKWqVWUMzme9E/view
 
   ## License
     This application is covered under MIT.
