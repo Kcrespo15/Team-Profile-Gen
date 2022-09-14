@@ -16,7 +16,7 @@ console.log('Welcome to the team generator!');
 //questions promted in CLI 
 const questions = async () => {
     const answers = await 
-    inquirer.promt([
+    inquirer.prompt([
         {
             type: "input",
             message: "What is your name?",
@@ -46,7 +46,7 @@ const questions = async () => {
     // Prompt selected based on role chosen
         if (answers.role === 'Manager') {
             const managerAnswers = await 
-            inquirer.promt ([
+            inquirer.prompt ([
                 {
                     type: "input",
                     message: "What is your office number",
@@ -64,7 +64,7 @@ const questions = async () => {
         } 
             else if (answers.role === 'Engineer') {
                 const gitHubAnswer = await 
-                inquirer.promt([
+                inquirer.prompt([
                     {
                         type: "input",
                         message: "What is your GitHub user name?",
@@ -82,7 +82,7 @@ const questions = async () => {
           }
             else if (answers.role === 'Intern') {
                 const internAnswers = await 
-                inquirer.promt([
+                inquirer.prompt([
                     {
                         type: "input",
                         message: "What university did you attend?",
@@ -127,5 +127,5 @@ const questions = async () => {
       // function to create finalized team 
       function createTeam () {
         console.log("new member", teamMembersData)
-        fs.writeFileSync("./output/index.html",generateTeam(teamMembersData),"utf-8");
+        fs.writeFileSync("./styling/index.html", generateTeam(teamMembersData),"utf-8");
       }
